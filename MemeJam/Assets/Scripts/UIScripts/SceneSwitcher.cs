@@ -12,4 +12,11 @@ public class SceneSwitcher : MonoBehaviour
     public void GoToControlsScene(){
         SceneManager.LoadScene("ControlsScene");
     }
+
+    public void GoToStartScene(){
+        SceneManager.LoadScene("StartScene");
+    }
+    public void ExitGame(){
+        Application.Quit();
+    }
 }
