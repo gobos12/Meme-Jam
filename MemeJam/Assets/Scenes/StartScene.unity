@@ -209,6 +209,7 @@ GameObject:
   - component: {fileID: 293105181}
   - component: {fileID: 293105183}
   - component: {fileID: 293105182}
+  - component: {fileID: 293105184}
   m_Layer: 5
   m_Name: StartText
   m_TagString: Untagged
@@ -277,6 +278,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 293105180}
   m_CullTransparentMesh: 1
+--- !u!114 &293105184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293105180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 1, g: 0.78431374, b: 0.50980395, a: 0.5}
+  m_EffectDistance: {x: 10, y: -10}
+  m_UseGraphicAlpha: 1
 --- !u!1 &568144668
 GameObject:
   m_ObjectHideFlags: 0
@@ -584,7 +600,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: EXIT GAME
+  m_Text: EXIT
 --- !u!222 &825891187
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -806,7 +822,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 300, y: -500}
-  m_SizeDelta: {x: 110, y: 30}
+  m_SizeDelta: {x: 70, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1001250604
 MonoBehaviour:
@@ -972,7 +988,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: START
+  m_Text: PLAY
 --- !u!222 &1001712112
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1133,7 +1149,7 @@ GameObject:
   - component: {fileID: 1785904246}
   - component: {fileID: 1785904245}
   m_Layer: 0
-  m_Name: GameController
+  m_Name: SceneSwitcher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

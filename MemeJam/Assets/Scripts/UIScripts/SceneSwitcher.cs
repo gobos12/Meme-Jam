@@ -16,6 +16,10 @@ public class SceneSwitcher : MonoBehaviour
     public void GoToStartScene(){
         SceneManager.LoadScene("StartScene");
     }
+
+    public void GoToCustomizeScene(){
+        SceneManager.LoadScene("CustomizeScene");
+    }
     public void ExitGame(){
         Application.Quit();
     }
