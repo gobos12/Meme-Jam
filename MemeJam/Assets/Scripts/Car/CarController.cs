@@ -41,9 +41,7 @@ public class CarController : MonoBehaviour
         frontRightWheelCollider.motorTorque = verticalInput * motorForce;
 
         currentBrakeForce = isBraking ? brakeForce : 0f;
-        if(isBraking){
-            ApplyBraking();
-        }
+        ApplyBraking();
     }
 
     private void ApplyBraking(){
