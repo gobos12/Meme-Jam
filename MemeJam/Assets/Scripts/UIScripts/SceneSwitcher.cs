@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class SceneSwitcher : MonoBehaviour
 {
     public void GoToMainScene(){
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("lvl1");
     }
     
     public void GoToControlsScene(){

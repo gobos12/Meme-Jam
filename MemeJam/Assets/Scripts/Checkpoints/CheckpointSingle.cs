@@ -23,6 +23,7 @@ public class CheckpointSingle : MonoBehaviour
         if(other.CompareTag("Car"))
         {
             CheckPoint1 = true;
+            FindObjectOfType<AudioManager>().Play("checkpoint");
             meshRenderer.enabled = false;
         }
     }
