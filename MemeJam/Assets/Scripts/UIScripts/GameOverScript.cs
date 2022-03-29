@@ -12,6 +12,8 @@ public class GameOverScript : MonoBehaviour
     // Start is called before the first frame update
     async void Start()
     {
+        GameObject.FindGameObjectWithTag("Music").GetComponent<BackgroundMusic>().PlayMusic();
+
         t = GameObject.FindGameObjectWithTag("timeTracker");
         timer = t.GetComponent<TimeTracker>();
         

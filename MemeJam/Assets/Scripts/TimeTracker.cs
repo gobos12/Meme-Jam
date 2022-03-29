@@ -13,6 +13,10 @@ public class TimeTracker : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
     }
 
+    void Start(){
+        GameObject.FindGameObjectWithTag("Music").GetComponent<BackgroundMusic>().StopMusic();
+    }
+
     // Update is called once per frame
     void Update()
     {

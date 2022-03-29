@@ -18,12 +18,12 @@ public class CarSounds : MonoBehaviour
             FindObjectOfType<AudioManager>().Stop("accelerate");
         }
 
-        if (Input.GetKeyDown(KeyCode.S))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             FindObjectOfType<AudioManager>().Play("brake");
         }
 
-        if (Input.GetKeyUp(KeyCode.S))
+        if (Input.GetKeyUp(KeyCode.Space))
         {
             FindObjectOfType<AudioManager>().Stop("brake");
         }
