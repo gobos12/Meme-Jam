@@ -26,7 +26,6 @@ public class FinishLine : MonoBehaviour
     {
         if (other.CompareTag("Car") && CheckpointSingle.CheckPoint1 && CheckpointSecond.CheckPoint2 && CheckpointThird.CheckPoint3)
         {
-            FindObjectOfType<AudioManager>().Play("checkpoint");
             meshRenderer.enabled = false;
             isFinished = true;
             SceneManager.LoadScene("EndScene");

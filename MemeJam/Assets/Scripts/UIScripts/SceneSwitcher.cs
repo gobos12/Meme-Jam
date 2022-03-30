@@ -14,12 +14,18 @@ public class SceneSwitcher : MonoBehaviour
     }
 
     public void GoToStartScene(){
+        GameObject.FindGameObjectWithTag("Music").GetComponent<BackgroundMusic>().StopMusic();
         SceneManager.LoadScene("StartScene");
     }
 
     public void GoToCustomizeScene(){
         SceneManager.LoadScene("CustomizeScene");
     }
+
+    public void GoToCreditsScene(){
+        SceneManager.LoadScene("CreditsScene");
+    }
+
     public void ExitGame(){
         Application.Quit();
     }

@@ -12,7 +12,7 @@ public class ControlsScript : MonoBehaviour
         //GameObject.FindGameObjectWithTag("Music").GetComponent<BackgroundMusic>().PlayMusic();
         g = GameObject.FindGameObjectWithTag("Music");
         bgm = g.GetComponent<BackgroundMusic>();
-        bgm.PlayMusic();
+        //bgm.PlayMusic();
     }
 
     // Update is called once per frame

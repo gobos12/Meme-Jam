@@ -13,7 +13,9 @@ public class BackgroundMusic : MonoBehaviour
     }
 
     public void PlayMusic(){
-        if(audio.isPlaying) return;
+        if(audio.isPlaying) {
+            return;
+        }
         audio.Play();
     }
     public void StopMusic(){
