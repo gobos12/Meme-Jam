@@ -10493,7 +10493,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361336864}
   serializedVersion: 2
-  m_Mass: 700
+  m_Mass: 250
   m_Drag: 4
   m_AngularDrag: 3
   m_UseGravity: 1
@@ -13055,10 +13055,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   theRB: {fileID: 1361336865}
-  forwardAccel: 10
-  reverseAccel: 4
-  maxSpeed: 50
-  turnStrength: 180
+  forwardAccel: 30
+  reverseAccel: 10
+  maxSpeed: 500
+  turnStrength: 80
 --- !u!4 &1575257882
 Transform:
   m_ObjectHideFlags: 0

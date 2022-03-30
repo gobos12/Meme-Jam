@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1706.6667
     height: 877.3334
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Project
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1707
     height: 877
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1707
     height: 827
-  m_MinSize: {x: 678, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 678, y: 471}
+  m_MaxSize: {x: 14000, y: 14021}
   vertical: 0
-  controlID: 2425
+  controlID: 891
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,10 +144,10 @@ MonoBehaviour:
     y: 0
     width: 1160.6666
     height: 827
-  m_MinSize: {x: 403, y: 492}
-  m_MaxSize: {x: 10001, y: 14042}
+  m_MinSize: {x: 403, y: 471}
+  m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
-  controlID: 2341
+  controlID: 892
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 2342
+  controlID: 893
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -401,9 +401,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 10d3ffff
-      m_LastClickedID: -11504
-      m_ExpandedIDs: a0c9ffff24d2ffff10d3ffff7ed6ffff8ad6ffff72fbffff
+      m_SelectedIDs: 2ed00000
+      m_LastClickedID: 53294
+      m_ExpandedIDs: 6c83ffff2ed00000f8d10000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -606,22 +606,22 @@ MonoBehaviour:
     m_SkipHidden: 1
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Car
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Car
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Documents\MemeJam\Meme-Jam\MemeJam
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 28.666656}
-    m_SelectedIDs: f8860000
-    m_LastClickedID: 34552
-    m_ExpandedIDs: 000000004486000046860000488600004a8600004c8600004e860000ee86000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 56050100
+    m_LastClickedID: 66902
+    m_ExpandedIDs: 0000000056050100580501005a0501005c0501005e0501006005010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -649,7 +649,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004486000046860000488600004a8600004c8600004e86000000ca9a3b
+    m_ExpandedIDs: 0000000056050100580501005a0501005c0501005e0501006005010000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -757,7 +757,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -11504
+  m_LastSelectedObjectID: 53294
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
