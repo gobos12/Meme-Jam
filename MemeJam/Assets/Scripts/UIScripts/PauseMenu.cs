@@ -4,28 +4,28 @@ using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
-    public static bool GamePaused = false;
-    public GameObject pauseMenuUI;
+    public static bool GamePaused = false; //pause menu state
+    public GameObject pauseMenuUI; //canvas that contains pause menu
 
     // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape)){
-            if(!GamePaused){
+            if(!GamePaused){ //checks pause menu state
                 Pause();
             }
         }
     }
 
     public void Resume(){
-        pauseMenuUI.SetActive(false);
-        Time.timeScale = 1f;
+        pauseMenuUI.SetActive(false); //deactivates pause menu
+        Time.timeScale = 1f; //unfreezes time
         GamePaused = false;
     }
 
     void Pause(){
-        pauseMenuUI.SetActive(true);
-        Time.timeScale = 0f;
+        pauseMenuUI.SetActive(true); //activates pause menu
+        Time.timeScale = 0f; //freezes time
         GamePaused = true;
     }
 
